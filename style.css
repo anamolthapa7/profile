@@ -1,0 +1,85 @@
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: url('pointer-gun\ \(1\).png'), auto;
+}
+
+body {
+  background-color:#279dc5 ;
+  color: black;
+}
+
+h1, h2 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  margin:0;
+}
+
+.center-content {
+  width: 700px;
+  margin: 50px auto;
+}
+
+ul {
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 45px;
+  margin: 10px;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.list-item:hover {
+  opacity: 1;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: green;
+  color:white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: darkgreen;
+}
+
+@media (max-width: 600px) {
+  .center-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .img-circle {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .list-item {
+    font-size: 30px;
+  }
+}
